@@ -16,7 +16,7 @@
 ✔️ Education Timeline\
 ✔️ Open Source Projects Connected with Github\
 ✔️ Contact me\
-✔️ Github Profile
+✔️ Github Profile\
 To view a live example, **[click here](https://dsachin.tech/)**
 
 ## Getting Started 🚀
