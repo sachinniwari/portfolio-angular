@@ -11,13 +11,13 @@ export class ExperienceComponent implements OnInit {
     viewExperiences: true,
     experience: [
       {
-        role: "Full Stack Engineer",
-        company: "Infosys",
+        role: "Software Engineer",
+        company: "MindRuby Technologies",
         color: "#3781c2",
-        companylogo: "../../../assets/images/infosys.png",
-        date: "Upcoming",
+        companylogo: "../../../assets/images/MR.png",
+        date: "Dec 2022 - Present",
         // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        desc: "Upcoming Software Enginer Specialist(SES) at Infosys",
+        desc: "Software Enginer at MindRuby Technologies",
         // descBullets: [
         //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -25,23 +25,23 @@ export class ExperienceComponent implements OnInit {
       },
       {
         role: "Computer Science & Engineering",
-        company: "GLA University",
+        company: "IPS Academy",
         color: "#3f703f",
-        companylogo: "../../../assets/images/gla.png",
-        date: "Aug 2016 – Jul 2020",
-        desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.6",
+        companylogo: "../../../assets/images/ipsa.jpg",
+        date: "Aug 2019 – Jul 2023",
+        desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.15",
         // descBullets: [
         //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         // ]
       },
       {
-        role: "Software Engineer Intern",
-        company: "Innovative Buiness Solutions",
+        role: "PHP Development Intern",
+        company: "Dollop Infotech",
         color: "#ff9102",
-        companylogo: "../../../assets/images/ibs.png",
-        date: "Jun 2018 – Aug 2018",
-        desc: "The 6- Week summer training focused on full-stack web development and helped learn to work in a team",
+        companylogo: "../../../assets/images/DOLLOP.jpg",
+        date: "July 2022 – Nov 2022",
+        desc: "The 5 months internship focused on web development in CodeIgniter and helped learn to work in a team",
         },
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",

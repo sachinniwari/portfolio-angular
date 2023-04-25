@@ -17,16 +17,16 @@ export class SoftwareSkillComponent implements OnInit {
         fontAwesomeClassname: "fab fa-css3-alt"
       },
       {
-        skillName: "sass",
-        fontAwesomeClassname: "fab fa-sass"
-      },
-      {
         skillName: "JavaScript",
         fontAwesomeClassname: "fab fa-js"
       },
       {
         skillName: "Angularjs",
         fontAwesomeClassname: "fab fa-angular"
+      },
+      {
+        skillName: "Reactjs",
+        fontAwesomeClassname: "fab fa-react"
       },
       {
         skillName: "nodejs",
@@ -41,9 +41,13 @@ export class SoftwareSkillComponent implements OnInit {
         fontAwesomeClassname: "fas fa-database"
       },
       {
-        skillName: "python",
-        fontAwesomeClassname: "fab fa-python"
+        skillName: "CodeIgniter",
+        fontAwesomeClassname: "fab fa-php"
       },
+      // {
+      //   skillName: "TypeScript",
+      //   fontAwesomeClassname: "fab fa-ts"
+      // },
       // {
       //   skillName: "Tensorflow",
       //   fontAwesomeClassname: "logos-tensorflow"

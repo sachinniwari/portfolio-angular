@@ -43,10 +43,10 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 })
 export class GreetingComponent implements OnInit {
   greeting= {
-    username: "Sarthak Agrawal",
-    title: "Hi all, I'm Sarthak",
-    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angularjs / Nodejs and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1YafWBqzJzA60fZJ6_mLRHY0pcBUTOFBZ/view?usp=sharing"
+    username: "Sachin Shrivastava",
+    title: "Hi all, I'm Sachin Shrivastava",
+    subTitle: "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / AngularJs / ReactJs / Nodejs / CodeIgniter and some other cool libraries and frameworks.",
+    resumeLink: "https://drive.google.com/file/d/1IiGB414aFQJDdS4TyndekOSxWuhBr1_f/view?usp=drivesdk"
   }
   constructor() { }
 

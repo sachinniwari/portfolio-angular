@@ -16,27 +16,43 @@ export class EducationComponent implements OnInit {
     //   className2: "prt_about_learnbox_right"
     // },
     {
+      heading: "Software Engineer",
+      duration: "2023",
+      subtitle: "MindRuby Technologies, Indore",
+      content: "Working Full Time on Live Projects with various technology like ReactJs, AngularJs, CodeIgniter, Ionic etc.",
+      className1: "mar-right",
+      className2: "prt_about_learnbox_left"
+    },
+    {
       heading: "B.Tech - Computer Science & Engineering",
-      duration: "2020",
-      subtitle: "GLA University, Mathura",
-      content: "Successfully completed my B.tech in Computer science from GLA University, Mathura.",
+      duration: "2023",
+      subtitle: "Institute of Engineering & Science, IPS Academy, Indore",
+      content: "Successfully completed my B.tech in Computer science from IPS Academy, Indore.",
+      className1: "mar-left",
+      className2: "prt_about_learnbox_right"
+    },
+    {
+      heading: "PHP Development Intern",
+      duration: "2022",
+      subtitle: "Dollop Infotech Pvt. Ltd., Indore",
+      content: "Successfully completed 5 Months Internship on CodeIgniter Framework where I developed REST API in CodeIgniter",
       className1: "mar-right",
       className2: "prt_about_learnbox_left"
     },
     {
       heading: "Higher Secondary(12th)",
-      duration: "2016",
-      subtitle: "CBSE Board",
-      content: "Successfully completed my intermediate studies in 2016 from Gyan Deep Sr. Secondary Public School, Shikohabad.\n" +
+      duration: "2019",
+      subtitle: "MP Board",
+      content: "Successfully completed my intermediate studies in 2019 from Jesus Krist Model Higher Secondary School, Niwari.\n" +
         "Major: PCM.",
       className1: "mar-left",
       className2: "prt_about_learnbox_right"
     },
     {
       heading: "Secondary Stage(10th)",
-      duration: "2014",
-      subtitle: "CBSE Board",
-      content: "Successfully completed my high school studies in 2014 from Georgions Academy, Shikohabad.",
+      duration: "2017",
+      subtitle: "MP Board",
+      content: "Successfully completed my high school studies in 2017 from Jesus Krist Model Higher Secondary School, Niwari.",
       className1: "mar-right",
       className2: "prt_about_learnbox_left"
     }
