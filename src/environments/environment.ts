@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  imageURL:"https://sachinniwari.github.io/portfolio-live-angular/"
 };
 
 /*
