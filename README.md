@@ -1,4 +1,4 @@
-# Software Developer Portfolio using Angular ⚡️ 
+# Software Developer Portfolio using Angular By sachin ⚡️ 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 <p align="center"> 
