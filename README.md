@@ -1,11 +1,11 @@
 # Software Developer Portfolio using Angular By sachin ⚡️ 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
-<p align="center"> 
+<!-- <p align="center"> 
   <kbd>
 <img src="./src/assets/images/portfolio.gif"></img>
   </kbd>
-</p>
+</p> -->
 
 
 ## Sections 
@@ -17,7 +17,7 @@
 ✔️ Open Source Projects Connected with Github\
 ✔️ Contact me\
 ✔️ Github Profile
-To view a live example, **[click here](https://sarthak-agrawal.me/)**
+To view a live example, **[click here](https://dsachin.tech/)**
 
 ## Getting Started 🚀
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
