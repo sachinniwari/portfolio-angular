@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-skills',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
+  
   skillsSection = {
     title: "What I do💁‍♂️",
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
@@ -15,9 +17,12 @@ export class SkillsComponent implements OnInit {
       "⚡ Developing a REST API for application",
     ]
   };
-  constructor() { }
+  
+  constructor() {
+   }
 
   ngOnInit(): void {
   }
+  
 
 }
