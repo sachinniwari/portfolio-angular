@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent implements OnInit {
-
+imageURL = environment.imageURL;
   public workExperiences = {
     viewExperiences: true,
     experience: [
@@ -14,7 +14,7 @@ export class ExperienceComponent implements OnInit {
         role: "Software Engineer",
         company: "MindRuby Technologies",
         color: "#3781c2",
-        companylogo: "/assets/images/MR.png",
+        companylogo: this.imageURL+"assets/images/MR.png",
         date: "Dec 2022 - Present",
         // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         desc: "Software Enginer at MindRuby Technologies",
@@ -27,7 +27,7 @@ export class ExperienceComponent implements OnInit {
         role: "Computer Science & Engineering",
         company: "IPS Academy",
         color: "#3f703f",
-        companylogo: "/assets/images/ipsa.jpg",
+        companylogo: this.imageURL+"assets/images/ipsa.jpg",
         date: "Aug 2019 – Jul 2023",
         desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.15",
         // descBullets: [
@@ -39,7 +39,7 @@ export class ExperienceComponent implements OnInit {
         role: "PHP Development Intern",
         company: "Dollop Infotech",
         color: "#ff9102",
-        companylogo: "/assets/images/DOLLOP.jpg",
+        companylogo: this.imageURL+"assets/images/DOLLOP.jpg",
         date: "July 2022 – Nov 2022",
         desc: "The 5 months internship focused on web development in CodeIgniter and helped learn to work in a team",
         },

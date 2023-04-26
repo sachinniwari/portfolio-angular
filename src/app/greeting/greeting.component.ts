@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, state, style, transition, trigger} from "@angular/animations";
-
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-greeting',
   templateUrl: './greeting.component.html',
@@ -42,6 +42,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
 })
 export class GreetingComponent implements OnInit {
+  imageURL = environment.imageURL;
   greeting= {
     username: "Sachin Shrivastava",
     title: "Hi all, I'm Sachin Shrivastava",

@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   imageURL:"https://sachinniwari.github.io/portfolio-live-angular/"
+  // imageURL:"http://localhost:4200/"
 };
 
 /*

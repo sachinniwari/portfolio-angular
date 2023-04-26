@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-
+import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-skill-progress',
   templateUrl: './skill-progress.component.html',
   styleUrls: ['./skill-progress.component.scss']
 })
 export class SkillProgressComponent implements OnInit {
-
+  imageURL = environment.imageURL;
   techStack = {
     viewSkillBars: true,
     experience: [

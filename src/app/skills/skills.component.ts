@@ -7,7 +7,7 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  
+  imageURL = environment.imageURL;
   skillsSection = {
     title: "What I do💁‍♂️",
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",

@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  imageURL:"https://sachinniwari.github.io/portfolio-live-angular/"
+
 };
